@@ -1,29 +1,31 @@
 {
     "emmet.includeLanguages": {
-        "javascript": "javascriptreact"
+        "javascript": "javascriptreact",
+        "vue-html": "html"
     },
     "editor.formatOnSave": false,
+    "emmet.triggerExpansionOnTab": true,
     "beautify.language": {
         "js": {
             "type": [
                 "javascript",
-                "json"
+                "json",
+                "jsonc"
             ],
             "filename": [
                 ".jshintrc",
                 ".jsbeautifyrc"
             ]
-            // "ext": ["js", "json"]
-            // ^^ to set extensions to be beautified using the javascript beautifier
         },
         "css": [
             "css",
+            "less",
             "scss"
         ],
         "html": [
             "htm",
             "html"
         ]
-        // ^^ providing just an array sets the VS Code file type
-    }
+    },
+    "typescript.tsserver.watchOptions": {}
 }
